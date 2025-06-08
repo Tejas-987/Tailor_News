@@ -14,3 +14,15 @@ TailorNews provides users with:
 - **Frontend**: Streamlit, HTML/CSS
 - **Backend & Auth**: Python, Firebase, Google OAuth, Session State
 - **APIs & Services**: newsapi.org (news), Courier (email via Gmail, SMS via Twilio)
+
+### Quick Start
+
+```bash
+git clone <your-fork-url>
+cd <repo-name>
+git remote add upstream <original-repo-url>
+git checkout -b your-branch
+# Make changes
+git add .
+git commit -m "Your message"
+git push -u origin your-branch
